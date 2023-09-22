@@ -1,0 +1,249 @@
+<channel major="1" minor="1">
+    <channel_name>UATV</channel_name>
+    <channel_description>Welcome To United Airlines</channel_description>
+    <category>movie</category>
+    <audio>English</audio>
+    <object_id>000</object_id>
+<!-- Opening Boundary -->    
+	<program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/IFEPromotionRoadblockStart.mpg</filename>
+      <boundary>
+        <key>auto promo</key>
+        <edge>start</edge>
+        <file>/var/spool/ltv3/content/CSSC/complete/IFEPromotionRoadblockStart.mpg</file>
+      </boundary>
+    </program>    
+<!-- Star Wars Onboarding Music -->
+	<program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_OnboardingMusic.mpg</filename>
+    </program>
+<!-- Turn PA OFF -->
+	<program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/null.mpg</filename>
+    </program>
+<!-- Star Wars Onboarding Music -->
+	<program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_OnboardingMusic.mpg</filename>
+    </program>
+<!-- Turn PA OFF -->
+	<program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/null.mpg</filename>
+    </program>
+<!-- Star Wars Onboarding Music -->
+	<program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_OnboardingMusic.mpg</filename>
+    </program>
+<!-- Turn PA OFF -->
+	<program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/null.mpg</filename>
+    </program>
+<!-- Star Wars Onboarding Music -->
+	<program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_OnboardingMusic.mpg</filename>
+    </program>
+<!-- Turn PA OFF -->
+	<program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/null.mpg</filename>
+    </program>
+<!-- Star Wars Onboarding Music -->
+	<program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_OnboardingMusic.mpg</filename>
+    </program>
+<!-- Turn PA OFF -->
+	<program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/null.mpg</filename>
+    </program>
+<!-- Star Wars Onboarding Music -->
+	<program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_OnboardingMusic.mpg</filename>
+    </program>
+<!-- Turn PA OFF -->
+	<program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/null.mpg</filename>
+    </program>
+<!-- Star Wars Onboarding Music -->
+	<program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_OnboardingMusic.mpg</filename>
+    </program>
+<!-- Turn PA OFF -->
+	<program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/null.mpg</filename>
+    </program>
+<!-- Star Wars Onboarding Music -->
+	<program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_OnboardingMusic.mpg</filename>
+    </program>
+<!-- Turn PA OFF -->
+	<program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/null.mpg</filename>
+    </program>
+<!-- Star Wars Onboarding Music -->
+	<program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_OnboardingMusic.mpg</filename>
+    </program>
+<!-- Turn PA OFF -->
+	<program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/null.mpg</filename>
+    </program>
+<!-- Star Wars Onboarding Music -->
+	<program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_OnboardingMusic.mpg</filename>
+    </program>
+<!-- Turn PA OFF -->
+	<program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/null.mpg</filename>
+    </program>
+<!-- Star Wars Onboarding Music -->
+	<program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_OnboardingMusic.mpg</filename>
+    </program>
+<!-- Turn PA OFF -->
+	<program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/null.mpg</filename>
+    </program>
+<!-- Star Wars Onboarding Music -->
+	<program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_OnboardingMusic.mpg</filename>
+    </program>
+<!-- Turn PA OFF -->
+	<program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/null.mpg</filename>
+    </program>
+<!-- Star Wars Onboarding Music -->
+	<program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_OnboardingMusic.mpg</filename>
+    </program>
+<!-- Turn PA OFF -->
+	<program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/null.mpg</filename>
+    </program>
+<!-- Star Wars Onboarding Music -->
+	<program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_OnboardingMusic.mpg</filename>
+    </program>
+<!-- Turn PA OFF -->
+	<program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/null.mpg</filename>
+    </program>
+<!-- Star Wars Onboarding Music -->
+	<program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_OnboardingMusic.mpg</filename>
+    </program>
+<!-- Closing Boundary -->    	
+    <program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/IFEPromotionRoadblockEnd.mpg</filename>
+      <boundary>
+        <key>auto promo</key>
+        <edge>end</edge>
+        <file>/var/spool/ltv3/content/CSSC/complete/IFEPromotionRoadblockEnd.mpg</file>
+      </boundary>
+    </program>	
+  </channel>

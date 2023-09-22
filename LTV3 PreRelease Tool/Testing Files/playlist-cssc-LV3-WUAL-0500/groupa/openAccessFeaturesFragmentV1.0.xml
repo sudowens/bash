@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+  <base_time>0</base_time>
+  <channel major="1" minor="2">
+    <channel_name>UATV</channel_name>
+    <channel_description>Star Wars Episode I: The Phantom Menace</channel_description>
+    <category>Movie</category>
+    <audio>English</audio>
+    <object_id>0002</object_id>
+    <program>
+      <name>Star Wars Episode I: The Phantom Menace</name>
+      <rating>PG</rating>
+      <description>Jedi Knights Obi-Wan Kenobi and Qui-Gon Jinn rescue Queen Amidala, ruler of a peaceful planet invaded by dark forces. During their escape, they discover nine-year-old Anakin Skywalker, a child prodigy who is unusually strong in the Force.</description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_SW_Phantom_TR.mpg</filename>
+    </program>
+  </channel>
+  <channel major="1" minor="3">
+    <channel_name>UATV</channel_name>
+    <channel_description>Star Wars Episode II: Attack of the Clones</channel_description>
+    <category>Movie</category>
+    <audio>English</audio>
+    <object_id>0003</object_id>
+    <program>
+      <name>Star Wars Episode II: Attack of the Clones</name>
+      <rating>PG</rating>
+      <description>When Jedi apprentice Anakin Skywalker is assigned to protect Senator Padme Amidala, he discovers his love for her... and his own darker side. Obi-Wan Kenobi uncovers a secret clone army as the galaxy marches towards full-scale war.</description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_SW_Clones_TR.mpg</filename>
+    </program>
+  </channel>
+  <channel major="1" minor="4">
+    <channel_name>UATV</channel_name>
+    <channel_description>Star Wars Episode III: Revenge of the Sith</channel_description>
+    <category>Movie</category>
+    <audio>English</audio>
+    <object_id>0004</object_id>
+    <program>
+      <name>Star Wars Episode III: Revenge of the Sith</name>
+      <rating>PG-13</rating>
+      <description>Clone Wars rage across the galaxy. A sinister Sith Lord seizes control of the Republic and corrupts Anakin Skywalker to be his dark apprentice, Darth Vader. Obi-Wan Kenobi must confront his fallen friend in an epic lightsaber duel.</description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_SW_Sith_TR.mpg</filename>
+    </program>
+  </channel>
+  <channel major="1" minor="5">
+    <channel_name>UATV</channel_name>
+    <channel_description>Star Wars Episode IV: A New Hope</channel_description>
+    <category>Movie</category>
+    <audio>English</audio>
+    <object_id>0005</object_id>
+    <program>
+      <name>Star Wars Episode IV: A New Hope</name>
+      <rating>PG</rating>
+      <description>Young farm boy Luke Skywalker is thrust into a galaxy of adventure when he intercepts a distress call from the captive Princess Leia. The event launches him on a daring mission to rescue her from the clutches of Darth Vader and the evil Empire.</description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_SW_Hope_TR.mpg</filename>
+    </program>
+  </channel>
+  <channel major="1" minor="6">
+    <channel_name>UATV</channel_name>
+    <channel_description>Star Wars Episode V: The Empire Strikes Back</channel_description>
+    <category>Movie</category>
+    <audio>English</audio>
+    <object_id>0006</object_id>
+    <program>
+      <name>Star Wars Episode V: The Empire Strikes Back</name>
+      <rating>PG</rating>
+      <description>The Rebels scatter after the Empire attacks their base on the ice planet Hoth. Han Solo and Princess Leia are pursued by Imperials, while Luke trains with Jedi Master Yoda. Luke must battle Darth Vader and learns the shocking truth of his past.</description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_SW_Empire_TR.mpg</filename>
+    </program>
+  </channel>
+  <channel major="1" minor="7">
+    <channel_name>UATV</channel_name>
+    <channel_description>Star Wars Episode VI: Return of the Jedi</channel_description>
+    <category>Movie</category>
+    <audio>English</audio>
+    <object_id>0007</object_id>
+    <program>
+      <name>Star Wars Episode VI: Return of the Jedi</name>
+      <rating>PG</rating>
+      <description>The Empire prepares to crush the Rebellion with a more powerful Death Star. The Rebel fleet counters with a massive attack on the space station. Luke Skywalker confronts Darth Vader in a final climactic duel.</description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_SW_Jedi_TR.mpg</filename>
+    </program>
+  </channel>
+  <channel major="1" minor="8">
+    <channel_name>UATV</channel_name>
+    <channel_description>Star Wars Episode VII: The Force Awakens</channel_description>
+    <category>Movie</category>
+    <audio>English</audio>
+    <object_id>0008</object_id>
+    <program>
+      <name>Star Wars Episode VII: The Force Awakens</name>
+      <rating>PG-13</rating>
+      <description>As a new threat to the galaxy rises, Rey, a desert scavenger, and Finn, an ex-stormtrooper, must join Han Solo and Chewbacca to search for the one hope of restoring peace. Experience the motion picture event of a generation in The Force Awakens.</description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_StarWars_TFA_TR.mpg</filename>
+    </program>
+  </channel>
+  <channel major="1" minor="9">
+    <channel_name>UATV</channel_name>
+    <channel_description>Star Wars Episode VIII: The Last Jedi</channel_description>
+    <category>Movie</category>
+    <audio>English</audio>
+    <object_id>0009</object_id>
+    <program>
+      <name>Star Wars Episode VIII: The Last Jedi</name>
+      <rating>PG-13</rating>
+      <description>The Star Wars saga continues in The Last Jedi as the heroes and galactic legends go on an epic adventure unlocking mysteries of the Force and shocking revelations of the past.</description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_SW_LastJedi_TR.mpg</filename>
+    </program>
+  </channel>
+  <channel major="1" minor="11">
+    <channel_name>UATV</channel_name>
+    <channel_description>Flight Map</channel_description>
+    <category>Movie</category>
+    <audio>English</audio>
+    <object_id>0011</object_id>
+    <program>
+      <name>Flight Map</name>
+      <rating>G</rating>
+      <description>Watch your flight path, aircraft speed, and altitude throughout the duration of your flight.</description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/null.mpg</filename>
+      <filename>/tmp/CurrentMap.mpg.fifo</filename>
+    </program>
+  </channel>

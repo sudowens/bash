@@ -1,0 +1,21 @@
+<channel major="1" minor="1">
+    <channel_name>UATV</channel_name>
+    <channel_description>Welcome</channel_description>
+    <category>movie</category>
+    <audio>English</audio>
+    <object_id>000</object_id>
+    <program>
+      <name>Welcome</name>
+      <rating>TV-G</rating>
+      <description></description>
+        <filename>/var/spool/ltv3/content/CSSC/complete/U3Dec99_BV_Descend3_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Dec99_WB_Blinded_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_SW_LastJedi_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Dec99_FX_AdAstra_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Dec99_FX_ReadyOrNot_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Dec99_WB_Kitchen_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_FX_RacingRain_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Dec99_WB_Elf_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Dec99_Promo1.mpg</filename>
+    </program>
+  </channel>

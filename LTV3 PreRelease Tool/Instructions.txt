@@ -1,0 +1,32 @@
+//LTV3 Playlist Pre-Release Tool//"
+			   Q4 2019 - Dave Owens
+			   
+This script is designed to update the packages.cssc file
+and create the .packages.cssc.md5sum required for reconciling
+It requires two arguments, a .zip filename and a description.
+
+The script will append your campaign to the end of the current 
+packages.cssc file.
+
+This tool is specifically designed for fringe testing use, when manually side loading playlists is insufficient.
+
+Pre Requisites:
+	This script must be run on a Linux environment, Cygwin will suffice for Windows.
+	
+	The md5_calc.php file must be present in the current working directory.
+	
+	This script only UPDATES the pacakges.cssc file. A version of packages.cssc needs to exist in the working directory to function. 
+	
+	A valid playlists zip (no folder within folder, etc) is required.
+	
+Once the process is complete, copy the playlist zip, the packages.cssc file and the .packages.cssc.md5sum file to 
+/content/dist/continental/ on the LAB WADL (172.16.36.94)
+
+Usage:
+    bash prerelease.sh <filename.zip> "Test Campaign Number" "Description"
+	
+Example:"
+	bash prelease.sh U3Dec19_TestPlaylists.zip "LV3-WUAL-0000" "United Test Campaign"
+	 
+	
+	

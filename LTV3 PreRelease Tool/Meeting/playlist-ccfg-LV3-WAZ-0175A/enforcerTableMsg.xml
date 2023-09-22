@@ -1,0 +1,67 @@
+<IpcMessage MessageName="SetEnforcerDB" Node="004544214200">
+
+<SetEnforcerDB Name="FormatVersion">
+<FormatVersion FormatVersionString="0.2.0" />
+</SetEnforcerDB>
+
+<SetEnforcerDB Name="DataVersion">
+<DataVersion DataVersionString="0.2.B" />
+</SetEnforcerDB>
+
+<SetEnforcerDB Name="ChannelCategory">
+<ChannelCategory Name="TV" CategoryID="1" />
+<ChannelCategory Name="Childrens Programming" CategoryID="2" />
+<ChannelCategory Name="News" CategoryID="3" />
+<ChannelCategory Name="Learning" CategoryID="4" />
+<ChannelCategory Name="Everything" CategoryID="5" />
+<ChannelCategory Name="Movies" CategoryID="6" />
+</SetEnforcerDB>
+
+<SetEnforcerDB Name="ChannelRule">
+<ChannelRule Name="BOOMERANG 	91" ChannelID = "0x00058278" BlockUnratedContent= "false" CategoryID= "0" />
+<ChannelRule Name="SPEED        28" ChannelID = "0x0006344e" BlockUnratedContent= "false" CategoryID= "0" />
+<ChannelRule Name="FX		47" ChannelID = "0x0006344d" BlockUnratedContent= "false" CategoryID= "0" />
+<ChannelRule Name="A and E	50" ChannelID = "0x00063494" BlockUnratedContent= "false" CategoryID= "0" />
+<ChannelRule Name="Welcome 	1-1" ChannelID = "0xFFFFF040" BlockUnratedContent= "false" CategoryID= "0" />
+<ChannelRule Name="Feature  	1-2" ChannelID = "0xFFFFF042" BlockUnratedContent= "false" CategoryID= "0" />
+<ChannelRule Name="LiveMap 	1-3" ChannelID = "0xFFFFF043" BlockUnratedContent= "false" CategoryID= "0" />
+<ChannelRule Name="Feature  	1-4" ChannelID = "0xFFFFF044"BlockUnratedContent= "false" CategoryID= "0" />
+<ChannelRule Name="Feature  	1-5" ChannelID = "0xFFFFF045" BlockUnratedContent= "false" CategoryID= "0" />
+<ChannelRule Name="Feature  	1-6" ChannelID = "0xFFFFF046" BlockUnratedContent= "false" CategoryID= "0" />
+<ChannelRule Name="Feature  	1-7" ChannelID = "0xFFFFF047" BlockUnratedContent= "false" CategoryID= "0" />
+<ChannelRule Name="Feature  	1-8" ChannelID = "0xFFFFF048" BlockUnratedContent= "false" CategoryID= "0" />
+<ChannelRule Name="Feature  	1-9" ChannelID = "0xFFFFF049" BlockUnratedContent= "false" CategoryID= "0" />
+<ChannelRule Name="Feature  	1-10" ChannelID = "0xFFFFF04A" BlockUnratedContent= "false" CategoryID= "0" />
+<ChannelRule Name="Feature  	1-11" ChannelID = "0xFFFFF04B " BlockUnratedContent= "false" CategoryID= "0" />
+<ChannelRule Name="Feature  	1-12" ChannelID = "0xFFFFF04C" BlockUnratedContent= "false" CategoryID= "0" />
+</SetEnforcerDB>
+
+<SetEnforcerDB Name="PurchaseString">
+<PurchaseString StepID="OpenAccess" Name="OpenAccessBasicAccess" Text="Divertindo-se com esta amostra de TV-ao-vivo, filmes inéditos e seriados sem interrupção comercial? Então passe o seu cartão agora e desfrute por apenas R$6,00. Vide cartão de segurança para maiores detalhes" />
+<PurchaseString StepID="InvitePayment" Name="InvitePaymentBasicAccess" Text="A sua amostra gratis está terminando em breve!
+Passe o seu cartão agora para continuar o seu entretenimento até o final deste voo. Desfrute TV-ao-vivo, filmes inéditos e seriados sem interrupções comerciais por apenas R$6,00. Vide cartão de segurança para detalhes adicionais." />
+<PurchaseString StepID="RestrictedAccess" Name="RestrictedAccessSelect" Text="Assista TV-ao-vivo pela SKY, seriados sem interrupções comerciais e filmes inéditos (NB: filmes podem já estar em progresso) tudo por apenas R$6,00!  Passe o seu cartão agora e desfrute!" />
+<PurchaseString StepID="RestrictedAccess" Name="RestrictedAccessBasicAccess" Text="Procurando por diversão? 
+Assista TV-ao-vivo pela SKY, seriados sem interrupções comerciais e tudo por apenas R$6,00! Passe o seu cartão agora e desfrute!" />
+<PurchaseString StepID="SwipeRequest" Name="SwipeRequestBasicAccess" Text="Favor passar o seu cartão agora para acesso à todos canais de TV e filmes inéditos por apenas R$6,00." />     
+<PurchaseString StepID="Confirm" Name="ConfirmBasicAccess" Text="Obrigado! Confirme o seu pagamento (R$6,00) pressionando o botão SELECT no seu controle remoto." />     
+<PurchaseString StepID="ThankYou" Name="ThankYou" Text="Divirta-se!" />
+<PurchaseString StepID="SwipeError" Name="SwipeError" Text="Falha na leitura do seu cartão, favor passar novamente ou usar outro cartão." />     
+<PurchaseString StepID="ValidateError" Name="ValidateError" Text="Falha na validação do seu cartão, favor passar novamente ou usar outro cartão." />     
+<PurchaseString StepID="TransactionError" Name="TransactionError" Text="Não foi possível completar a sua transação, favor tentar novamente." />     
+<PurchaseString StepID="ValidateWait" Name="ValidateWait" Text="Favor esperar enquanto finalizamos o seu pagamento." />     
+<PurchaseString StepID="PABanner" Name="PABanner" Text="Anuncio de Cabine em andamento." />
+<PurchaseString StepID="NoBanner" Name="NoBannerBasicAccess" Text="NPSF" />
+</SetEnforcerDB>
+
+<SetEnforcerDB Name="PaymentGroup">
+<PaymentGroup Name="Free" Cost="000" CostUnit="BRL" ServiceClass="Free" PurchaseStrings="" ChannelID="0x00058278" />
+<PaymentGroup Name="Basic Access" Cost="000" CostUnit="BRL" ServiceClass="TV" PurchaseStrings="OpenAccessBasicAccess,InvitePaymentBasicAccess,RestrictedAccessBasicAccess,SwipeRequestBasicAccess,ConfirmBasicAccess"  ChannelID="0x00058278,0x0006344e,0x0006344d,0x00063494,0xFFFFF040,0xFFFFF042,0xFFFFF043,0xFFFFF044,0xFFFFF045,0xFFFFF046,0xFFFFF047,0xFFFFF048,0xFFFFF049,0xFFFFF04A,0xFFFFF04B,0xFFFFF04C"/>
+</SetEnforcerDB>
+
+<SetEnforcerDB Name="SeatProfile">
+<SeatProfile Name="Coach" PrepaidGroups="Free,Basic Access"   ChannelID="0x00058278,0x0006344e,0x0006344d,0x00063494,0xFFFFF040,0xFFFFF042,0xFFFFF043,0xFFFFF044,0xFFFFF045,0xFFFFF046,0xFFFFF047,0xFFFFF048,0xFFFFF049,0xFFFFF04A,0xFFFFF04B,0xFFFFF04C"/>
+<SeatProfile Name="Unassigned" PrepaidGroups="Free,Basic Access"  ChannelID="0x00058278,0x0006344e,0x0006344d,0x00063494,0xFFFFF040,0xFFFFF042,0xFFFFF043,0xFFFFF044,0xFFFFF045,0xFFFFF046,0xFFFFF047,0xFFFFF048,0xFFFFF049,0xFFFFF04A,0xFFFFF04B,0xFFFFF04C"/>
+
+</SetEnforcerDB>                                           
+</IpcMessage>  

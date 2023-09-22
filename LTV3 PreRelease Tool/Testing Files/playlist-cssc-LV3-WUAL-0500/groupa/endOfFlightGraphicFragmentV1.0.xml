@@ -1,0 +1,13 @@
+<channel major="1" minor="1">
+    <channel_name>UATV</channel_name>
+    <channel_description>Welcome To United Airlines</channel_description>
+    <category>movie</category>
+    <audio>English</audio>
+    <object_id>000</object_id>
+    <program>
+      <roadblock> </roadblock>
+      <name>Welcome To United Airlines</name>
+      <description>End Of Flight</description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov14_ThanksFlying.mpg</filename>
+    </program>
+  </channel>

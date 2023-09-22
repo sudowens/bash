@@ -1,0 +1,64 @@
+<channel major="1" minor="1">
+    <channel_name>UATV</channel_name>
+    <channel_description>Welcome</channel_description>
+    <category>movie</category>
+    <audio>English</audio>
+    <object_id>000</object_id>
+<!-- Before Safety Briefing Ads over PA -->
+    <program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_2019_UnitedLogo.mpg</filename>
+    </program>
+<!-- Safety Briefing -->
+    <program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_SafetyBriefing.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_RiseSkywalker_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/leader.mpg</filename>
+      <boundary>
+        <key>safety</key>
+        <edge>start</edge>
+        <file>/var/spool/ltv3/content/CSSC/complete/U3_SW2019_SafetyBriefing.mpg</file>
+      </boundary>
+      <boundary>
+        <key>post safety</key>
+        <edge>start</edge>
+        <file>/var/spool/ltv3/content/CSSC/complete/leader.mpg</file>
+      </boundary>
+    </program>
+<!-- Turn PA OFF -->
+    <program>
+      <roadblock> </roadblock>
+      <name>Welcome</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/null.mpg</filename>
+    </program>
+<!-- Post Safety Briefing Ads played OVER PA -->
+    <program>
+      <roadblock> </roadblock>
+      <cabinPAAudio> </cabinPAAudio>
+      <name>Welcome</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW_2019_Promo2.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Dec99_Chase_Q1RoadblockRefresh_30.mpg</filename>
+    </program>
+<!-- Post Safety Briefing Ads NOT over PA -->
+    <program>
+      <roadblock> </roadblock>
+      <name>Welcome</name>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Dec99_RoadblockShow.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/SafetyBriefingRoadblockEnd.mpg</filename>
+      <boundary>
+        <key>safety</key>
+        <edge>end</edge>
+        <file>/var/spool/ltv3/content/CSSC/complete/SafetyBriefingRoadblockEnd.mpg</file>
+      </boundary>
+    </program>
+  </channel>

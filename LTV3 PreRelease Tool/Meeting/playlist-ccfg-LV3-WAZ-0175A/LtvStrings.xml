@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StringsDatabase>
+	<ICDVersion>1.0</ICDVersion>
+	<DataVersion>1.2</DataVersion>
+	<CreateDate>2011-03-101T00:00:00</CreateDate>
+	<Description>Azul Strings Data</Description>
+	<StringElement>
+		<Name>OpenAccess</Name>
+		<Value><![CDATA[NPSF]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>InvitePayment</Name>
+		<Value><![CDATA[A sua amostra gratis está terminando em breve!
+Passe o seu cartão agora para continuar o seu entretenimento até o final deste voo. Desfrute TV-ao-vivo, filmes inéditos e seriados sem interrupções comerciais por apenas R$6,00. Vide cartão de segurança para detalhes adicionais.]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>RestrictedAccessSelect</Name>
+		<Value><![CDATA[Assista TV-ao-vivo pela SKY, seriados sem interrupções comerciais e filmes inéditos (NB: filmes podem já estar em progresso) tudo por apenas R$6,00!  Passe o seu cartão agora e desfrute!]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>RestrictedAccess</Name>
+		<Value><![CDATA[Procurando por diversão?
+Assista TV-ao-vivo pela SKY, seriados sem interrupções comerciais e tudo por apenas R$6,00! Passe o seu cartão agora e desfrute!]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PurchaseScreenSwipeRequest</Name>
+		<Value><![CDATA[Favor passar o seu cartão agora para acesso à todos canais de TV e filmes inéditos por apenas R$6,00.]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PurchaseScreenConfirm</Name>
+		<Value><![CDATA[Obrigado! Confirme o seu pagamento (R$6,00) pressionando o botão SELECT no seu controle remoto.]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PurchaseScreenThankYou</Name>
+		<Value><![CDATA[Divirta-se!]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PurchaseScreenSwipeError</Name>
+		<Value><![CDATA[Falha na leitura do seu cartão, favor passar novamente ou usar outro cartão.]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PurchaseScreenValidateError</Name>
+		<Value><![CDATA[Falha na validação do seu cartão, favor passar novamente ou usar outro cartão.]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PurchaseScreenTransactionError</Name>
+		<Value><![CDATA[Não foi possível completar a sua transação, favor tentar novamente.]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PurchaseScreenValidateWait</Name>
+		<Value><![CDATA[Favor esperar enquanto finalizamos o seu pagamento.]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PurchaseScreenButtonConfirmPurchase</Name>
+		<Value><![CDATA[Confirmar]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PurchaseScreenButtonCancelPurchase</Name>
+		<Value><![CDATA[Cancelar]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>ButtonTxtCancel</Name>
+		<Value><![CDATA[Cancelar]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>ButtonTxtOk</Name>
+		<Value><![CDATA[OK]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>ButtonTxtConfirm</Name>
+		<Value><![CDATA[Confirmar]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PABanner</Name>
+		<Value><![CDATA[Anuncio de Cabine em andamento.]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>NoBannerBasicAccess</Name>
+		<Value><![CDATA[NPSF]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>DTNAM</Name>
+		<Value><![CDATA[Devido ao movimento normal da aeronave, a programação esta temporariamente não disponivel.]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PaxApgResetActivate</Name>
+		<Value><![CDATA[programação SKY ao vivo esta agora disponivel.
+
+Esta programação pode ser acessada a qualquer hora pressionando o botão GUIDE no seu controle remoto.]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PaxApgResetConfirm</Name>
+		<Value><![CDATA[O guia necessita ser atualizado. Sua programação será temporariamente interrompida enquanto nós adicionamos canais SKY no seu guia.]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PaxApgResetFailed</Name>
+		<Value><![CDATA[O guia não pode ser atualizado desta vez. Pressione o botão GUIDE para tentar novamente.]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PaxApgResetBtnContinue</Name>
+		<Value><![CDATA[Continuar]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PaxApgResetBtnCancel</Name>
+		<Value><![CDATA[Cancelar]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PaxApgResetBtnDismiss</Name>
+		<Value><![CDATA[OK]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PaxApgResetBtnOk</Name>
+		<Value><![CDATA[OK]]></Value>
+	</StringElement>
+        <StringElement>
+		<Name>ExitCoverage</Name>
+		<Value><![CDATA[Esta aeronave estará deixando a area de cobertura da SKY em breve. Programação ao vivo da SKY nao estará disponivel uma vez que essa aeronave sairá da area de cobertura.
+Vários canais de filmes ainda estarão disponivel para o seu entretenimento]]></Value>
+	</StringElement>
+	<StringElement>
+		<Name>PaxApgExitCvgBtn</Name>
+		<Value><![CDATA[OK]]></Value>
+	</StringElement>
+			
+</StringsDatabase>
+

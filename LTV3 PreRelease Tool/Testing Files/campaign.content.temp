@@ -1,0 +1,67 @@
+#! /bin/sh
+
+# This script is inserted into playlists.  It is run after package install
+#  as a shell fragment.  It will define variables that are used by the email
+#  template sent out to specific airlines.  Because it is run from within
+#  our regular environment, we can include logic here as well.
+
+# The following substitutions are performed:
+#	@ TYPE @ --> The campaign type (VSUCONTENT, AVM{CODE|DATA|CONTENT}, etc.
+#	@ CAMPAIGN @ --> The (required) LiveTV Campaign number (user input)
+#	@ TRACKING @ --> The (optional) Tracking Number (user input)
+#	@ DESCRIPTION @ --> The campaign description (user input)
+
+# First, create a working directory
+# Then, dump each substitution into a file
+# Then safely set the variable using the file data
+
+tmpdir=`mktemp -d` || exit 1
+#
+type=CSSCCONTENT
+#
+cat > "$tmpdir/campaign" << ~@EOF$$
+CAMPAIGNNUMBER
+~@EOF$$
+eval 'campaign="`cat $tmpdir/campaign`" || exit 2'
+#
+cat > "$tmpdir/tracking" << ~@EOF$$
+
+~@EOF$$
+eval 'tracking="`cat $tmpdir/tracking`" || exit 2'
+#
+cat > "$tmpdir/description" << ~@EOF$$
+CAMPAIGNDESCRIPTION
+~@EOF$$
+eval 'description="`cat $tmpdir/description`" || exit 2'
+#
+rm -rf "$tmpdir"
+
+# This substitution comes from the VSU at rollover selection
+group="$VSUContentGroup"
+
+campaign_year="$VSUYear"
+campaign_month="$VSUMonth"
+campaign_day="$VSUDay"
+campaign_hour="$VSUHour"
+campaign_minute="$VSUMinute"
+campaign_second="$VSUSecond"
+
+campaign_stationid="$VSUStationID"
+campaign_ip="$VSUIP"
+campaign_eti="$VSUETI"
+campaign_departure="$VSUDeparture"
+campaign_destination="$VSUDestination"
+campaign_flightnumber="$VSUFlightNumber"
+campaign_latitude=
+campaign_longitude=
+
+vsuserial="$VSUSerialNumber"
+vsueti="$VSUETI"
+
+## This could also be done ...
+#case "$airline:$tail" in
+#	*:jblab)
+#		campaign="CAMPAIGNNUMBER"
+#		tracking="LIVETV-INTERNAL-TESTING"
+#		;;
+#esac

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FlightManager>
+	<Name>FlightManagement-Default-Wireless</Name>
+	<FlightSegment>
+		<Type>Free</Type>
+		<Key>
+			<Origin>#</Origin>
+			<Destination>#</Destination>
+			<StartTime>#</StartTime>
+			<StopTime>#</StopTime>
+			<StartDate>#</StartDate>
+			<StopDate>#</StopDate>
+		</Key>
+		<Config>
+			/var/spool/ltv3/activeconfig/FlightConfiguration11.xml
+		</Config>
+	</FlightSegment>
+</FlightManager>

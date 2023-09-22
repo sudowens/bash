@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<SeatDefaults>
+<Version>0.3.7</Version>
+<ProfileDefaults profile="Coach" eofChannel="-4032" noSatelliteChannel="-4032" brightness="32" volume="25" aspect_ratio="stretch" audio_language="Portuguese" display_language="Portuguese">
+	<PaymentGroupName name="Basic Access" />
+	<SeatConfig name="SimulatedGuide">
+                <ChannelDwell>2000</ChannelDwell>
+                <EpisodeDuration>120000</EpisodeDuration>
+                <EpisodeInterval>36000000</EpisodeInterval>
+	</SeatConfig>
+	<SeatConfig name="ClosedCaptioningConfig">
+		<ClosedCaptioningConfigItem name="analogLanguage" value="CC1" />
+		<ClosedCaptioningConfigItem name="backgroundColor" value="black" />
+		<ClosedCaptioningConfigItem name="foregroundColor" value="white" />
+		<ClosedCaptioningConfigItem name="displaySource" value="datastream" />
+		<ClosedCaptioningConfigItem name="fontOpacity" value="opaque" />
+		<ClosedCaptioningConfigItem name="panelOpacity" value="opaque" />
+		<ClosedCaptioningConfigItem name="fontSize" value="medium" />
+		<ClosedCaptioningConfigItem name="typeFace" value="trade gothic" />
+	</SeatConfig>
+	<SeatConfig name="SetApgReset">
+        	<ActivateScreenTimeout>300</ActivateScreenTimeout>
+        	<ConfirmScreenTimeout>60</ConfirmScreenTimeout>
+        	<FailedScreenTimeout>60</FailedScreenTimeout>
+        	<ApgResetTimeout>120</ApgResetTimeout>
+        	<MaxPassengerRetries>10000</MaxPassengerRetries>
+	</SeatConfig>
+	<SeatConfig name="ExitCoverageBannerTimeout" value="300" />
+	<SeatConfig name="ExitCoverageChannel" value="4294963264" />
+  <SeatConfig name="KickStepConfig">
+    <KickStep>
+      <StepDelay>20</StepDelay>
+    </KickStep>
+  </SeatConfig>
+</ProfileDefaults>
+</SeatDefaults>

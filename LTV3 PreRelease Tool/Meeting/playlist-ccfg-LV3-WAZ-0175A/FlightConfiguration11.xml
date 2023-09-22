@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<!-- Change Log:
+		NOTE: Before checking this file in, please make sure it uses UNIX line endings.
+
+		CR CS-3850, Leonardo Fortes, Inclusion of 2 Globo Channels (EPTV Campinas & EPTV Ribeirao):
+				Added channel:
+						519	EPTV CAMPINAS
+						520	EPTV RIBEIRAO
+
+				Update the create date to 2022-10-05T13:50:00
+                Update the Flight Config DataVersion from 2.9 to 2.10
+                Update setEnforcerDB DataVersion from 0.6.9 to 0.6.10
+
+		CR CS-3593, Leonardo Fortes, Replace DisneyXD by Tooncast and reordering other channels based on channel_number:
+				Removed channel:
+						53 	DISNEY XD
+						84	TBS				(channel_number corrected)
+						85	COMEDY CENTRAL	(channel_number corrected)
+						158	CNN INT			(channel_number corrected)
+
+				Added channel:
+						62	TOONCAST
+						155	TBS				(channel_number corrected)
+						158	COMEDY CENTRAL 	(channel_number corrected)
+						174	CNN INT			(channel_number corrected)
+
+				Update the create date to 2022-06-10T14:50:00
+                Update the Flight Config DataVersion from 2.8 to 2.9
+                Update setEnforcerDB DataVersion from 0.6.8 to 0.6.9
+
+		CR CS-2693 part 2, Leonardo Fortes, Removing 6 channels due to streaming issue:
+				Removed channels:
+						2 	TV CULTURA
+						20 	RBI
+						35	OFF
+						113	CANAL BRASIL
+						510	GLOBO RECIFE
+						511	GLOBO REDE AMAZONICA
+
+				Update the create date to 2022-01-10T14:30:00
+                Update the Flight Config DataVersion from 2.7 to 2.8
+                Update setEnforcerDB DataVersion from 0.6.7 to 0.6.8
+
+CR CS-2693, Leonardo Fortes, SKY lineup changes to reflect following changes:
+				Adding channels to enforcer:
+						35	OFF
+						50	DISCOV. KIDS
+						70	DISCOVERY
+						71	ANIMAL PLANET
+						85	D.HOME&HEALTH
+						113	CANAL BRASIL
+						149	ID
+
+				Changed chanel number from (Channel ID was kept):
+						60 CARTOON (It was 101)
+
+				Update the create date to 2021-12-08T18:40:00
+                Update the Flight Config DataVersion from 2.6 to 2.7
+                Update setEnforcerDB DataVersion from 0.6.6 to 0.6.7
+
+CR CS-2510, Carl Jones
+                Update the Flight Config DataVersion from 2.5 to 2.6
+                Update setEnforcerDB DataVersion from 0.6.5 to 0.6.6
+
+CR CS-2510, Leonardo Fortes, SKY lineup changes to reflect following changes:
+				Removing channels from enforcer:
+						502	EPTV CAMPINAS		(Removed)
+						509	TV CABUGI			(Removed)
+						513	TVTEM BAURU 		(Removed)
+						514	TVTEM SJRP 			(Removed)
+						516	TVTEM SOROCABA 		(Removed)
+						517	EPTV RIBEIRAO 		(Removed)
+						519	VANGUARDA SJC 		(Removed)
+						520	TV TRIBUNA 			(Removed)
+						521	VANGUARDA TAUB 		(Removed)
+						522	TVTEM ITAPE 		(Removed)
+						523	EPTV SUL MINAS 		(Removed)
+						524	INTERTV MINAS		(Removed)
+
+				Adding channels to enforcer:
+						43	VIVA
+						107	MEGAPIX
+
+				Also updated Channel numbers (Object ID was kept) of the following:
+						2	CULTURA
+						9	SBT
+						13	BANDEIRANTES
+						15	REDE TV
+						53	DISNEY XD
+						55	DISNEY CHANNEL
+						56	GLOOB
+						86	TLC
+						111	STUDIO UNIVERSAL
+						115	TCM
+						140 UNIVERSAL
+						150	TNT SERIES
+						158	COMEDY CENTRAL
+						177	CNN BRASIL
+
+				Update the create date to 2021-11-03T17:30:00
+                Update the Flight Config DataVersion from 2.4 to 2.5
+                Update setEnforcerDB DataVersion from 0.6.4 to 0.6.5
+
+	CR CS-1013, Leonardo Fortes, SKY lineup changes to reflect channel replacements.
+				Removing channels from enforcer:
+						23	TV Brasil 1			(Channel Removed)
+						25	TV Brasil 2 		(Channel Removed)
+						191	Woohoo				(Channel Removed)
+
+				Adding channels to enforcer:
+						23	SBT					(Channel Added)
+						25 	Rede TV	 			(Channel Added)
+						191 CNN Brasil 			(Channel Added)
+
+				Update the create date to 11/26/2020
+                Update the Flight Config DataVersion from 2.3 to 2.4
+                Update setEnforcerDB DataVersion from 0.6.3 to 0.6.4
+
+    CR CS-686, Leonardo Fortes, SKY Object ID update and lineup changes.
+				Removing channels from enforcer:
+						1	CANAL DO CLIENTE	(Channel Removed)
+						43	RA TIM BUM			(Channel Removed)
+						95	ZOOMOO				(Channel Removed)
+						100 NICKELODEON			(Channel Removed)
+						170	TV CLIMATEMPO		(Channel Removed)
+
+				Adding channels to enforcer:
+						61	TNT SERIES			(Channel Added)
+						800	SKY INFORMA			(Channel Added)
+
+				Updating Channel Object ID from channels:
+						39	SPORTV				(Channel Object ID Updated)
+						91	TLC					(Channel Object ID Updated)
+						101	CARTOON				(Channel Object ID Updated)
+						174	CNN INTERNAT		(Channel Object ID Updated)
+						182	RAI					(Channel Object ID Updated)
+						183	NHK					(Channel Object ID Updated)
+						506	GLOBO BRASILIA		(Channel Object ID Updated)
+						515	ANHANGUERA GO		(Channel Object ID Updated)
+						519	VANGUARDA SJC		(Channel Object ID Updated)
+						521 VANGUARDA TAUB		(Channel Object ID Updated)
+						522	TVTEM ITAPE			(Channel Object ID Updated)
+
+				Update the create date to 10/05/2020
+                Update the Flight Config DataVersion from 2.2 to 2.3
+                Update setEnforcerDB DataVersion from 0.6.2 to 0.6.3
+
+	CR5632, Adam Nelson, SKY Object ID update
+                Adding channels to enforcer:
+
+                        25 NBR
+                        48 TV RA TIM BUM
+
+                Update the create date to 12/17/2018
+                Update the DataVersion from 2.1 to 2.2
+                Update setEnforcerDB DataVersion from 6.1 to 6.2
+
+
+        CR5623(1.2) & CR5624(1.6), Adam Nelson, SKY Object ID update
+                Update object IDs to the following channels:
+
+                        110 CNN INTERNAT
+
+                Adding channels to enforcer:
+
+                        14 CNT
+                        19 RECNEWS
+                        20 RBI
+                        23 BRASIL
+                        95 ZOOMOO
+                        170 TVCLIMA
+                        175 NHK
+                        176 RAI
+                        178 TV5
+                        179 TVE
+                        180 DW
+                        191 WOOHOO
+
+
+                Update the create date to 7/25/2018
+                Update the DataVersion from 2.0 to 2.1
+                Update SetEnforcerDB DataVersion from 6.0 to 6.1
+
+        CR5614(1.2.1) & CR5615(1.6.0.9), Adam Nelson, SKY Object ID update
+                Update object IDs to the following channels:
+
+                        1 CANAL DO CLIENTE
+                        85 COMEDY CENTRAL
+
+                Object IDs On new satellite, temporarily unavailable, COIDs commented out to not reflect on guide:
+
+                        16 REDE
+                        25 BANDSPORTS
+                        35 VIVA
+                        36 OFF
+                        46 SYFY
+                        52 DISCOVERY
+                        53 ANIMAL PLANET
+                        82 ID
+                        90 D.HOME&amp;HEALTH
+                        99 DISCOV.KIDS
+                        107 BANDNEWS
+                        109 SBT
+                        110 CNN INTERNAT
+                        181 PLAY TV
+
+
+                Update the create date to 6/18/2018
+                Update the DataVersion from 1.9 to 2.0
+                Update SetEnforcerDB DataVersion from 5.9 to 6.0
+
+        CR5589(1.2.1) & CR5590(1.6), Adam Nelson, SKY Object ID update
+                Update object IDs to the following channels:
+                        504 RBS TV POA
+                        505 RPC CURITIBA
+                        522 TV TEM ITAP 522
+                        523 EPTV SUL MINAS
+                        524 INTERTV GMINAS
+
+                Update the create date to 9/20/2017
+                Update the DataVersion from 1.8 to 1.9
+                Update SetEnforcerDB DataVersion from 5.8 to 5.9
+
+        CR5575(1.2.1) & CR5576(1.6), Adam Nelson, Remove "Dynamic Stretch" from flight configuration file / SKY Object ID update
+                Update to replace "dynamic stretch" to "stretch"
+                Update object IDs to the following channels:
+                        16      REDE TV
+                        25      BANDSPORTS
+                        35      VIVA
+                        36      OFF
+                        43      UNIVERSAL (Channel Added)
+                        46      SYFY  (Channel Added)
+                        52      DISCOVERY
+                        53      ANIMAL PLANET
+                        57      STUDIO (Channel Added)
+                        58      SPACE
+                        60      TNT
+                        70      TCM
+                        82      ID
+                        84      TBS
+                        85      COMEDY CENTRAL
+                        90      D.HOME&HEALTH
+                        91      TLC
+                        96      DISNEY XD
+                        97      DISNEY
+                        98      GLOOB
+                        99      DISCOV.KIDS
+                        100     NICKELODEON
+                        101     CARTOON
+                        107     BANDNEWS
+                        110     CNN INTERNAT.
+                        160     TV CULTURA
+                        181     PLAY TV
+                        521     VANG TAUBATÉ (Channel Added)
+                        522     TV TEM ITAP. (Channel Added)
+                        523     EPTV SUL MINAS (Channel Added)
+                        524     INTERTV GMINAS (Channel Added)
+
+                Update the create date to 7/7/2017
+                Update the DataVersion from 1.7 to 1.8
+                Update SetEnforcerDB DataVersion from 5.7 to 5.8
+
+        CR5565, Adam Nelson, SKY Network Object ID Update for Azul
+                Update object IDs to the following channels:
+                        36 OFF
+                        37 SPORTV 3
+                        70 TCM
+                        90 D. HOME&HEALTH
+                        181 PLAY TV
+                        500 GLOBO SP
+                        501 GLOBO RJ
+                        504 RBS TV POA
+                        505 RPC TV CURITIBA
+                        513 TV TEM BAURU
+                        516 TVTEM SOROCABA
+                Update the create date to 05/11/2017
+                Update the DataVersion from 1.6 to 1.7
+                Update the DataVersionString from 5.6 to 5.7
+
+        CR5498, Roberto Santos, Change the Out of Coverage OSD Message
+        DTNAM Message "Sinal temporariamente indisponível."
+                Update the create date to 7/06/2016.
+                Update the StringsDatabase from 1.2 to 1.3.
+
+    CR5446, Steve Blackwell, Change Objecs[sic] IDs to 4 Azul Channels.
+            Updated the object IDs for the following channels:
+                  503 GLOBO BH
+                  506 GLOBO BRISILIA
+                  509 INT TV CABUGI
+                  516 TVTEM SOROCABA
+                Update the create date to 01/04/2016.
+                Update the DataVersion from 1.5 to 1.6.
+                Update the SetEnforcerDB DataVersion from 0.5.5 to 0.5.6.
+
+    CR5426, Steve Blackwell, 11/13/2015, New Channel Linup for Azul
+        Add the following channels to the enforcer table:
+           7 Record
+          16 Rede TV
+          36 OFF
+          37 Sportv3
+          38 Sportv2
+          85 Comedy Central
+          96 Disney XD
+          98 Gloob
+        Update the create date to 11/13/2015
+        Update the DataVersion from 1.4 to 1.5
+        Update the SetEnforcerDB DataVersion from 0.5.4 to 0.5.5
+
+    CR5317, Steve Blackwell, 05/26/2015, Wrong XML encoding for Portuguese characters.
+        Changed the encoding attribute of the XML header from utf-8 to iso-8859-1.
+
+    CR5372, Steve Blackwell, 05/26/2015, Add Globo News to the linup.
+        Add Globo News to the enforcer table.
+        Update the CreateDate and version numbers.
+
+    CR5311, Steve Blackwell, 01/23/2015, Errors in FlightConfiguration file
+        Put back the missing quotes in the PurchaseStrings elements
+        Bumped the FlightConfiguration Data Vaersion from 1.2 to 1.3
+        Bumped the EnforcerTable Data Version from 0.5.2 to 0.5.3
+        Changed the Create Date
+
+    CR5170, Steve Blackwell, 12/18/2014,
+        Deleted Rede TV
+        Changed "CNNInt  24" to "CNN INTERNAT.  110"
+        Changed "BNews  25" to "BANDNEWS  107"
+        Changed "BandSpo  26" to "BANDSPORTS 25"
+        Changed "DscH&amp;H 90" to "D.HOME&amp;HEALTH 90"
+        Deleted Glitz
+        Changed "DSCKids  99" to "DISCOV.KIDS  99"
+        Changed "Nick   100" to "NICKELODEON   100"
+        Changed "Band   115" to "BANDEIRANTES   115"
+        Changed "EPTV   502" ChannelID = "0x00125DD6" to "EPTV CAMPINAS   502" ChannelID = "0x0009118C"
+        Changed "RBS    504" to "RBS TV POA   504"
+        Changed "RPC    505" to "RPC CURITIBA   505"
+        Changed "GloboBR  506" to "GLOBO BRASILIA   506"
+        Changed "TVLib  508"" to "TV LIBERAL BELEM   508"
+        Changed "Cabugi   509" to "IMT TV CABUGI   509"
+        Changed "GloboRE  510" to "GLOBO RECIFE   510"
+        Changed "TVAmaz   511" to "TV AMAZONAS   511"
+        Changed "America  512" to "CENTRO AMERICA   512"
+        Changed "TemBru   513" to "TV TEM BAURU   513"
+        Changed "TemSJR   514" to "TVTEM SJRP   514"
+        Changed "TVAnha   515" to "TV ANHANGUERA GOIANIA   515"
+        Changed "TVTem    516" to "TVTEM SOROCABA   516"
+        Changed "EPTVRP   517" to "EPTV R.PRETO   517"
+        Changed "VMares   518" to "VERDES MARES   518"
+        Changed "TVVang   519" to "TV VANGUARDA   519"
+        Changed "Tribuna  520" to "TV TRIBUNA   520"
+-->
+
+<FlightConfig name="FlightConfiguration11.xml">
+  <ICDVersion>1.0</ICDVersion>
+  <DataVersion>2.10</DataVersion>
+  <CreateDate>2022-10-05T13:50:00</CreateDate>
+  <Description>Azul Free</Description>
+
+ <ConopsStates>
+  <ConopsState name="openAccess">
+    <barkerPlaylist>/var/spool/ltv3/activecontent/openAccessBarkerFragmentV1.0.xml</barkerPlaylist>
+    <featuresPlaylist>/var/spool/ltv3/activecontent/openAccessFeaturesFragmentV1.0.xml</featuresPlaylist>
+    <CommandFlow type="Coach">
+      <SeatApplicability SeatProfile="Coach" />
+      <BannerList>
+        <Banner>PA</Banner>
+        <Banner>exitCoverage</Banner>
+        <Banner>openAccess</Banner>
+        <Banner>alert</Banner>
+      </BannerList>
+      <SeatCommand name="SetAccessMode" value="FreePreviewAll" />
+      <SeatCommand name="SuppressAlerts" />
+      <SeatCommand name="DisplayGraphic" graphicId="HIDE_GRAPHIC_ID" duration="0" />
+      <DynamicCommand>AllowTv</DynamicCommand>
+      <DynamicCommand>ExitedCoverage</DynamicCommand>
+      <DynamicCommand>SetEncryptionKey</DynamicCommand>
+      <DynamicCommand>EligibleAPGReset</DynamicCommand>
+    </CommandFlow>
+
+    <CommandFlow type="First Class">
+      <SeatApplicability SeatProfile="First Class" />
+      <BannerList>
+        <Banner>PA</Banner>
+        <Banner>exitCoverage</Banner>
+        <Banner>alert</Banner>
+      </BannerList>
+      <SeatCommand name="SetAccessMode" value="EnforcePayment" />
+      <SeatCommand name="SuppressAlerts" />
+      <SeatCommand name="DisplayGraphic" graphicId="HIDE_GRAPHIC_ID" duration="0" />
+      <DynamicCommand>AllowTv</DynamicCommand>
+      <DynamicCommand>ExitedCoverage</DynamicCommand>
+      <DynamicCommand>SetEncryptionKey</DynamicCommand>
+      <DynamicCommand>EligibleAPGReset</DynamicCommand>
+    </CommandFlow>
+
+    <CommandFlow type="Entry Row">
+      <SeatApplicability SeatProfile="Entry Row" />
+      <SeatCommand name="SetBrightness" value="0" />
+    </CommandFlow>
+  </ConopsState>
+
+  <ConopsState name="invite">
+    <duration>900</duration>
+    <trigger>Doorclosed</trigger>
+    <barkerPlaylist>/var/spool/ltv3/activecontent/invitePaymentBarkerFragmentV1.0.xml</barkerPlaylist>
+    <featuresPlaylist>/var/spool/ltv3/activecontent/invitePaymentFeaturesFragmentV1.0.xml</featuresPlaylist>
+    <CommandFlow type="Unpaid">
+      <SeatApplicability PaymentGroup="Free" />
+      <BannerList>
+        <Banner>PA</Banner>
+        <Banner>exitCoverage</Banner>
+        <Banner>invite</Banner>
+        <Banner>alert</Banner>
+        <Banner>null</Banner>
+      </BannerList>
+      <SeatCommand name="SetAccessMode" value="FreePreviewAll" />
+      <SeatCommand name="SuppressAlerts" />
+      <DynamicCommand>AllowTv</DynamicCommand>
+      <DynamicCommand>ExitedCoverage</DynamicCommand>
+      <DynamicCommand>SetEncryptionKey</DynamicCommand>
+      <DynamicCommand>EligibleAPGReset</DynamicCommand>
+    </CommandFlow>
+
+    <CommandFlow type="Paid">
+      <SeatApplicability PaymentGroup="Basic Access" />
+      <BannerList>
+        <Banner>PA</Banner>
+        <Banner>exitCoverage</Banner>
+        <Banner>alert</Banner>
+      </BannerList>
+      <SeatCommand name="SuppressAlerts" />
+      <DynamicCommand>AllowTv</DynamicCommand>
+      <DynamicCommand>ExitedCoverage</DynamicCommand>
+      <DynamicCommand>SetEncryptionKey</DynamicCommand>
+      <DynamicCommand>EligibleAPGReset</DynamicCommand>
+    </CommandFlow>
+
+    <CommandFlow type="Entry Row">
+      <SeatApplicability SeatProfile="Entry Row" />
+      <SeatCommand name="SetBrightness" value="0" />
+    </CommandFlow>
+  </ConopsState>
+
+  <ConopsState name="restricted">
+    <barkerPlaylist>/var/spool/ltv3/activecontent/restrictedAccessBarkerFragmentV1.0.xml</barkerPlaylist>
+    <featuresPlaylist>/var/spool/ltv3/activecontent/restrictedAccessFeaturesFragmentV1.0.xml</featuresPlaylist>
+    <CommandFlow type="Unpaid">
+      <SeatApplicability PaymentGroup="Free" />
+      <BannerList>
+        <Banner>PA</Banner>
+        <Banner>exitCoverage</Banner>
+        <Banner>restricted</Banner>
+        <Banner>alert</Banner>
+      </BannerList>
+      <SeatCommand name="SetAccessMode" value="EnforcePayment" />
+      <SeatCommand name="SuppressAlerts" />
+      <DynamicCommand>AllowTv</DynamicCommand>
+      <DynamicCommand>ExitedCoverage</DynamicCommand>
+      <DynamicCommand>SetEncryptionKey</DynamicCommand>
+      <DynamicCommand>EligibleAPGReset</DynamicCommand>
+    </CommandFlow>
+
+    <CommandFlow type="Paid">
+      <SeatApplicability PaymentGroup="Basic Access" />
+      <BannerList>
+        <Banner>PA</Banner>
+        <Banner>exitCoverage</Banner>
+        <Banner>alert</Banner>
+      </BannerList>
+      <SeatCommand name="SuppressAlerts" />
+      <DynamicCommand>AllowTv</DynamicCommand>
+      <DynamicCommand>ExitedCoverage</DynamicCommand>
+      <DynamicCommand>SetEncryptionKey</DynamicCommand>
+      <DynamicCommand>EligibleAPGReset</DynamicCommand>
+    </CommandFlow>
+
+    <CommandFlow type="Entry Row">
+      <SeatApplicability SeatProfile="Entry Row" />
+      <SeatCommand name="SetBrightness" value="0" />
+    </CommandFlow>
+  </ConopsState>
+  </ConopsStates>
+
+  <Roadblocks>
+    <RoadblockConfig name="eof">
+      <playlistFilename>/var/spool/ltv3/activecontent/endOfFlightGraphicFragmentV1.0.xml</playlistFilename>
+      <RunConfig rank="6" startDelay="0" cycleTime="10000" abortable="true" pendingAbort="5" programCount="1" flightCount="100"></RunConfig>
+      <trigger>EofButtonTrigger</trigger>
+      <CommandFlow type="General">
+        <SeatApplicability all="true" />
+        <BannerList>
+        </BannerList>
+        <SeatCommand name="SetChannel" value="4294963264" />
+        <SeatCommand name="LockChannel" />
+        <SeatCommand name="SetAspectRatio" value="stretch" />
+        <SeatCommand name="LockAspectRatio" />
+        <SeatCommand name="SetBrightness" value="32" />
+        <SeatCommand name="LockBrightness" />
+        <SeatCommand name="SuppressAlerts" alert="SEARCHING_FOR_SIGNAL_LCI" />
+        <SeatCommand name="SetDisplayBanner" value="NoBanner" />
+        <SeatCommand name="DisableTransaction" />
+        <DynamicCommand>AllowTv</DynamicCommand>
+        <DynamicCommand>ExitedCoverage</DynamicCommand>
+        <DynamicCommand>SetEncryptionKey</DynamicCommand>
+      </CommandFlow>
+    </RoadblockConfig>
+
+    <RoadblockConfig name="safety">
+      <playlistFilename>/var/spool/ltv3/activecontent/safetyBriefingFragmentV1.0.xml</playlistFilename>
+      <PauseAllButRoadblock></PauseAllButRoadblock>
+      <RunConfig rank="5" startDelay="0" cycleTime="10000" abortable="true" pendingAbort="0" programCount="1" flightCount="100"></RunConfig>
+      <trigger>SafetyButtonTrigger</trigger>
+      <CommandFlow type="Unassigned">
+        <SeatApplicability SeatProfile="Unassigned" />
+        <BannerList>
+          <Banner>PA</Banner>
+          <Banner>exitCoverage</Banner>
+        </BannerList>
+        <SeatCommand name="SetChannel" value="4294963264" />
+        <SeatCommand name="LockChannel" />
+        <SeatCommand name="SetAspectRatio" value="stretch" />
+        <SeatCommand name="LockAspectRatio" />
+        <SeatCommand name="SetBrightness" value="32" />
+        <SeatCommand name="LockBrightness" />
+        <SeatCommand name="SuppressAlerts" alert="SEARCHING_FOR_SIGNAL_LCI" />
+        <SeatCommand name="SetDisplayBanner" value="NoBanner" />
+        <SeatCommand name="DisableTransaction" />
+        <DynamicCommand>AllowTv</DynamicCommand>
+        <DynamicCommand>ExitedCoverage</DynamicCommand>
+        <DynamicCommand>SetEncryptionKey</DynamicCommand>
+      </CommandFlow>
+
+      <CommandFlow type="Entry Row">
+        <SeatApplicability SeatProfile="Entry Row" />
+        <BannerList>
+          <Banner>PA</Banner>
+          <Banner>exitCoverage</Banner>
+        </BannerList>
+        <SeatCommand name="SetChannel" value="4294963264" />
+        <SeatCommand name="LockChannel" />
+        <SeatCommand name="SetAspectRatio" value="stretch" />
+        <SeatCommand name="LockAspectRatio" />
+        <SeatCommand name="SetBrightness" value="30" />
+        <SeatCommand name="LockBrightness" />
+        <SeatCommand name="SuppressAlerts" alert="SEARCHING_FOR_SIGNAL_LCI" />
+        <SeatCommand name="SetDisplayBanner" value="NoBanner" />
+        <SeatCommand name="DisableTransaction" />
+        <DynamicCommand>AllowTv</DynamicCommand>
+        <DynamicCommand>ExitedCoverage</DynamicCommand>
+        <DynamicCommand>SetEncryptionKey</DynamicCommand>
+      </CommandFlow>
+
+      <CommandFlow type="Coach">
+        <SeatApplicability SeatProfile="Coach" />
+        <BannerList>
+          <Banner>PA</Banner>
+          <Banner>exitCoverage</Banner>
+        </BannerList>
+        <SeatCommand name="SetChannel" value="4294963264" />
+        <SeatCommand name="LockChannel" />
+        <SeatCommand name="SetAspectRatio" value="stretch" />
+        <SeatCommand name="LockAspectRatio" />
+        <SeatCommand name="SetBrightness" value="32" />
+        <SeatCommand name="LockBrightness" />
+        <SeatCommand name="SuppressAlerts" alert="SEARCHING_FOR_SIGNAL_LCI" />
+        <SeatCommand name="SetDisplayBanner" value="NoBanner" />
+        <SeatCommand name="DisableTransaction" />
+        <DynamicCommand>AllowTv</DynamicCommand>
+        <DynamicCommand>ExitedCoverage</DynamicCommand>
+        <DynamicCommand>SetEncryptionKey</DynamicCommand>
+      </CommandFlow>
+
+      <CommandFlow type="First Class">
+        <SeatApplicability SeatProfile="First Class" />
+        <BannerList>
+          <Banner>PA</Banner>
+          <Banner>exitCoverage</Banner>
+        </BannerList>
+        <SeatCommand name="SetChannel" value="4294963264" />
+        <SeatCommand name="LockChannel" />
+        <SeatCommand name="SetAspectRatio" value="stretch" />
+        <SeatCommand name="LockAspectRatio" />
+        <SeatCommand name="SetBrightness" value="32" />
+        <SeatCommand name="LockBrightness" />
+        <SeatCommand name="SuppressAlerts" alert="SEARCHING_FOR_SIGNAL_LCI" />
+        <SeatCommand name="SetDisplayBanner" value="NoBanner" />
+        <SeatCommand name="DisableTransaction" />
+        <DynamicCommand>AllowTv</DynamicCommand>
+        <DynamicCommand>ExitedCoverage</DynamicCommand>
+        <DynamicCommand>SetEncryptionKey</DynamicCommand>
+      </CommandFlow>
+    </RoadblockConfig>
+
+    <RoadblockConfig name="promo">
+      <playlistFilename>/var/spool/ltv3/activecontent/IFEPromotionFragmentV1.0.xml</playlistFilename>
+      <RunConfig rank="3" startDelay="0" cycleTime="10000" abortable="true" pendingAbort="5" programCount="1" flightCount="100"></RunConfig>
+      <trigger>PromoButtonTrigger</trigger>
+      <CommandFlow type="General">
+        <SeatApplicability all="true" />
+        <BannerList>
+          <Banner>PA</Banner>
+          <Banner>exitCoverage</Banner>
+        </BannerList>
+        <SeatCommand name="SuppressAlerts" />
+        <SeatCommand name="DisplayGraphic" graphicId="HIDE_GRAPHIC_ID" duration="0" />
+        <SeatCommand name="SetChannel" value="4294963264" />
+        <SeatCommand name="SetBrightness" value="32" />
+        <SeatCommand name="SetAspectRatio" value="stretch" />
+        <SeatCommand name="LockChannel" />
+        <SeatCommand name="LockBrightness" />
+        <SeatCommand name="LockAspectRatio" />
+        <DynamicCommand>AllowTv</DynamicCommand>
+        <DynamicCommand>ExitedCoverage</DynamicCommand>
+        <DynamicCommand>SetEncryptionKey</DynamicCommand>
+      </CommandFlow>
+
+      <CommandFlow type="Entry Row">
+        <SeatApplicability SeatProfile="Entry Row" />
+        <SeatCommand name="SetBrightness" value="0" />
+      </CommandFlow>
+    </RoadblockConfig>
+
+    <RoadblockConfig name="neof">
+      <playlistFilename>/var/spool/ltv3/activecontent/neofPromotionFragmentV1.0.xml</playlistFilename>
+      <RunConfig rank="3" startDelay="0" cycleTime="10000" abortable="true" pendingAbort="30" programCount="1" flightCount="1"></RunConfig>
+      <trigger>AircraftStateApproach</trigger>
+      <CommandFlow type="Unpaid">
+        <SeatApplicability PaymentGroup="Free" />
+        <BannerList>
+          <Banner>PA</Banner>
+          <Banner>exitCoverage</Banner>
+        </BannerList>
+        <SeatCommand name="SuppressAlerts" />
+        <SeatCommand name="DisplayGraphic" graphicId="HIDE_GRAPHIC_ID" duration="0" />
+        <SeatCommand name="SetChannel" value="4294963264" />
+        <SeatCommand name="LockChannel" />
+        <SeatCommand name="SetAspectRatio" value="stretch" />
+        <SeatCommand name="SetBrightness" value="32" />
+        <SeatCommand name="SetDisplayBanner" value="NoBanner" />
+        <SeatCommand name="LockAspectRatio" />
+        <SeatCommand name="LockBrightness" />
+        <SeatCommand name="SuppressAlerts" alert="SEARCHING_FOR_SIGNAL_LCI" />
+        <SeatCommand name="DisableTransaction" />
+                <DynamicCommand>AllowTv</DynamicCommand>
+        <DynamicCommand>ExitedCoverage</DynamicCommand>
+        <DynamicCommand>SetEncryptionKey</DynamicCommand>
+      </CommandFlow>
+
+      <CommandFlow type="Entry Row">
+        <SeatApplicability SeatProfile="Entry Row" />
+        <SeatCommand name="SetBrightness" value="0" />
+      </CommandFlow>
+    </RoadblockConfig>
+
+    <RoadblockConfig name="auto promo">
+      <playlistFilename>/var/spool/ltv3/activecontent/autoPromotionFragmentV1.0.xml</playlistFilename>
+      <RunConfig rank="3" startDelay="2400" cycleTime="1500" abortable="false" pendingAbort="0" programCount="3" flightCount="100"></RunConfig>
+      <trigger>OpenAccessTrigger</trigger>
+      <terminator>InvitePaymentTrigger</terminator>
+      <CommandFlow type="Unpaid">
+        <SeatApplicability all="true" />
+        <BannerList>
+          <Banner>PA</Banner>
+          <Banner>exitCoverage</Banner>
+        </BannerList>
+        <SeatCommand name="SuppressAlerts" />
+        <SeatCommand name="DisplayGraphic" graphicId="HIDE_GRAPHIC_ID" duration="0" />
+        <DynamicCommand>AllowTv</DynamicCommand>
+        <DynamicCommand>ExitedCoverage</DynamicCommand>
+        <DynamicCommand>SetEncryptionKey</DynamicCommand>
+      </CommandFlow>
+
+      <CommandFlow type="Entry Row">
+        <SeatApplicability SeatProfile="Entry Row" />
+        <SeatCommand name="SetBrightness" value="0" />
+      </CommandFlow>
+    </RoadblockConfig>
+  </Roadblocks>
+
+
+  <SetEnforcerDBMsg>
+
+  <IpcMessage MessageName="SetEnforcerDB" Node="004544214200">
+
+    <SetEnforcerDB Name="FormatVersion">
+      <FormatVersion FormatVersionString="0.2.0" />
+    </SetEnforcerDB>
+
+    <SetEnforcerDB Name="DataVersion">
+      <DataVersion DataVersionString="0.6.10" />
+    </SetEnforcerDB>
+
+    <SetEnforcerDB Name="ChannelCategory">
+      <ChannelCategory Name="TV"                    CategoryID="1" />
+      <ChannelCategory Name="Childrens Programming" CategoryID="2" />
+      <ChannelCategory Name="News"                  CategoryID="3" />
+      <ChannelCategory Name="Learning"              CategoryID="4" />
+      <ChannelCategory Name="Everything"            CategoryID="5" />
+      <ChannelCategory Name="Movies"                CategoryID="6" />
+    </SetEnforcerDB>
+
+    <SetEnforcerDB Name="ChannelRule">
+      <!-- <ChannelRule Name="CANAL DO CLIENTE  1"      ChannelID = "0x00029B93" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="TV CULTURA   2"           ChannelID = "0x001BEF3F" BlockUnratedContent= "false" CategoryID= "0" /> -->
+	  <ChannelRule Name="RECORD TV   7"                 ChannelID = "0x0011387B" BlockUnratedContent= "false" CategoryID= "0" />
+	  <ChannelRule Name="SBT 9"	             			ChannelID = "0x00024BEE" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="BANDEIRANTES   13"             ChannelID = "0x00090AF0" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="CNT   14"                      ChannelID = "0x000E8C01" BlockUnratedContent= "false" CategoryID= "0" />
+	  <ChannelRule Name="REDE TV  15"          			ChannelID = "0x00008697" BlockUnratedContent= "false" CategoryID= "0" />
+	  <ChannelRule Name="RECORD NEWS   19"              ChannelID = "0x000E8C05" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="RBI    20"                ChannelID = "0x000E8C04" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="TV BRASIL 23"             ChannelID = "0x0002F0ED" BlockUnratedContent= "false" CategoryID= "0" /> -->
+	  <!-- <ChannelRule Name="SBT 23"	             	ChannelID = "0x00024BEE" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="REDE   16"                ChannelID = "0x001E6F8C" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="TV BRASIL 2  25"          ChannelID = "0x0006331A" BlockUnratedContent= "false" CategoryID= "0" /> -->
+	  <!-- <ChannelRule Name="REDE TV  25"          	ChannelID = "0x00008697" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="VIVA   35"                ChannelID = "0x00029BEB" BlockUnratedContent= "false" CategoryID= "0" /> -->
+	  <!-- <ChannelRule Name="OFF   35"                 ChannelID = "0x0021D108" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="OFF   36"                 ChannelID = "0x00024BDC" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <ChannelRule Name="SPORTV 3   37"                 ChannelID = "0x001B4B5A" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="SPORTV 2   38"                 ChannelID = "0x0005CB38" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="SPORTV   39"                   ChannelID = "0x00024BC3" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="GLOBO NEWS  40"                ChannelID = "0x0004519E" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="GNT    41"                     ChannelID = "0x0004CC82" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="MULTISHOW  42"                 ChannelID = "0x0006331B" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="UNIVERSAL TV  43"         ChannelID = "0x001BEF6C" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <ChannelRule Name="VIVA    43"	                ChannelID = "0x0021D109" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="SYFY       46"            ChannelID = "0x00024BDF" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="TV RA TIM BUM  43"        ChannelID = "0x001B4FE3" BlockUnratedContent= "false" CategoryID= "0" /> -->
+	  <ChannelRule Name="DISCOV. KIDS   50"             ChannelID = "0x00024BFF" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="DISCOVERY  52"            ChannelID = "0x00029BAE" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="ANIMAL PLANET 53"         ChannelID = "0x001ECF82" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="DISNEY XD   53"           ChannelID = "0x001BEF70" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <ChannelRule Name="DISNEY 55"                     ChannelID = "0x001BEF31" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="GLOOB   56"                    ChannelID = "0x001BEF75" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="STUDIO   57"              ChannelID = "0x001BEEE6" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="SPACE  58"                ChannelID = "0x001BEF71" BlockUnratedContent= "false" CategoryID= "0" /> -->
+	  <ChannelRule Name="CARTOON  60"                   ChannelID = "0x000202B0" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="TNT SERIES 61"            ChannelID = "0x00024682" BlockUnratedContent= "false" CategoryID= "0" /> -->
+  	  <ChannelRule Name="TOONCAST  62"                  ChannelID = "0x001FE991" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="TCM    70"                ChannelID = "0x001BDCA5" BlockUnratedContent= "false" CategoryID= "0" /> -->
+	  <ChannelRule Name="DISCOVERY    70"               ChannelID = "0x0000868D" BlockUnratedContent= "false" CategoryID= "0" />
+	  <ChannelRule Name="ANIMAL PLANET    71"           ChannelID = "0x001E60BF" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="ID   82"                  ChannelID = "0x000086B9" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="TBS    84"                ChannelID = "0x001BEF32" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="COMEDY CENTRAL   85"      ChannelID = "0x0001889A" BlockUnratedContent= "false" CategoryID= "0" /> -->
+	  <ChannelRule Name="D.HOME HEALTH    85"           ChannelID = "0x00029BB8" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="TLC    86"                     ChannelID = "0x00024BCE" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="D.HOME&amp;HEALTH 90"     ChannelID = "0x001ECEB5" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="TLC    91"                ChannelID = "0x00024BCE" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="ZOOMOO 95"                ChannelID = "0x001F4500" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="DISNEY XD   96"           ChannelID = "0x001BEF70" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="DISNEY 97"                ChannelID = "0x001BEF31" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="GLOOB   98"               ChannelID = "0x001BEF75" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="DISCOV.KIDS  99"          ChannelID = "0x00029BBA" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="NICKELODEON   100"        ChannelID = "0x0005D906" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="CARTOON  101"             ChannelID = "0x000202B0" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="BANDNEWS  107"            ChannelID = "0x0000867D" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <ChannelRule Name="MEGAPIX  107"            		ChannelID = "0x001ECF81" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="SBT    109"               ChannelID = "0x00029BC3" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <ChannelRule Name="TNT    108"                    ChannelID = "0x001BEF6E" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="SPACE   110"    		        ChannelID = "0x001BEF71" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="STUDIO   111"              	ChannelID = "0x001BEEE6" BlockUnratedContent= "false" CategoryID= "0" />
+	  <!-- <ChannelRule Name="CANAL BRASIL   113"       ChannelID = "0x001E63EC" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="BANDEIRANTES   115"       ChannelID = "0x00090AF0" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <ChannelRule Name="TCM    115"			        ChannelID = "0x001BDCA5" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="TV CULTURA   160"         ChannelID = "0x001BEF3F" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="TVCLIMA   170"            ChannelID = "0x001B5355" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <ChannelRule Name="UNIVERSAL TV  140"             ChannelID = "0x001BEF6C" BlockUnratedContent= "false" CategoryID= "0" />
+	  <ChannelRule Name="ID  149"             			ChannelID = "0x00029BAB" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="TNT SERIES 150"                ChannelID = "0x00024682" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="TBS    155"                    ChannelID = "0x001BEF32" BlockUnratedContent= "false" CategoryID= "0" />
+	  <ChannelRule Name="COMEDY CENTRAL   158"          ChannelID = "0x0001889A" BlockUnratedContent= "false" CategoryID= "0" />
+	  <!-- <ChannelRule Name="CNN INTERNAT   158"       ChannelID = "0x00024BCA" BlockUnratedContent= "false" CategoryID= "0" /> -->
+	  <ChannelRule Name="CNN INTERNAT   174"            ChannelID = "0x00024BCA" BlockUnratedContent= "false" CategoryID= "0" />
+	  <!-- <ChannelRule Name="NHK   175"                ChannelID = "0x000635AE" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="RAI   176"                ChannelID = "0x0002F096" BlockUnratedContent= "false" CategoryID= "0" /> -->
+	  <ChannelRule Name="CNN BRASIL   177"             	ChannelID = "0x00024BA6" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="TV5 MONDE   178"               ChannelID = "0x00029BF0" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="TV ESPANHA   179"              ChannelID = "0x00130824" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="DW DEUTSCH   180"              ChannelID = "0x0008B126" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="PLAY TV 181"              ChannelID = "0x001BDCA2" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <ChannelRule Name="RAI   182"                     ChannelID = "0x001E2C7B" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="NHK   183"                     ChannelID = "0x00024686" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="WOOHOO   191"             ChannelID = "0x00029BEF" BlockUnratedContent= "false" CategoryID= "0" /> -->
+	  <!-- <ChannelRule Name="CNN BRASIL   191"         ChannelID = "0x00024BA6" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <ChannelRule Name="GLOBO SP  500"                 ChannelID = "0x001B2143" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="GLOBO RJ  501"                 ChannelID = "0x001B2912" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="EPTV CAMPINAS  502"       ChannelID = "0x0009118C" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <ChannelRule Name="GLOBO BH  503"                 ChannelID = "0x00172FB4" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="RBS TV POA   504"              ChannelID = "0x0008BA06" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="RPC CURITIBA   505"            ChannelID = "0x0008B9FC" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="GLOBO BRISILIA  506"           ChannelID = "0x00024684" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="TV BAHIA  507"                 ChannelID = "0x0008BA02" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="LIBERAL BELEM  508"            ChannelID = "0x0008BA05" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="TV CABUGI   509"          ChannelID = "0x001737AF" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="GLOBO RECIFE  510"        ChannelID = "0x0008B9FE" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="REDE AMAZONICA   511"     ChannelID = "0x0008B9F8" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <ChannelRule Name="CENTRO AMERICA  512"           ChannelID = "0x0008B9F5" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="TV TEM BAURU   513"       ChannelID = "0x001B4B5D" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="TV TEM SJRP   514"        ChannelID = "0x0008B9FB" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <ChannelRule Name="ANHANGUERA GO  515"    		ChannelID = "0x00024B98" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="TVTEM SOROCABA   516"     ChannelID = "0x001B4FE7" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="EPTV RIBEIRAO   517"      ChannelID = "0x0008B9F9" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <ChannelRule Name="VERDES MARES   518"            ChannelID = "0x0008B9FF" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="VANGUARDA SJC   519"      ChannelID = "0x00029BAC" BlockUnratedContent= "false" CategoryID= "0" /> -->
+	  <ChannelRule Name="EPTV CAMPINAS  519"            ChannelID = "0x00024BA7" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="EPTV RIBEIRAO  520"            ChannelID = "0x00029BA7" BlockUnratedContent= "false" CategoryID= "0" />
+      <!-- <ChannelRule Name="TV TRIBUNA  520"          ChannelID = "0x0008BA00" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="VANGUARDA TAUB  521"      ChannelID = "0x001E7181" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="TVTEM ITAPE  522"         ChannelID = "0x0022A833" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="EPTV SUL MINAS  523"      ChannelID = "0x001C09AF" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <!-- <ChannelRule Name="INTERTV MINAS  524"       ChannelID = "0x001C09B2" BlockUnratedContent= "false" CategoryID= "0" /> -->
+      <ChannelRule Name="SKY INFORMA  800"           	ChannelID = "0x001B56D1" BlockUnratedContent= "false" CategoryID= "0" />
+
+      <ChannelRule Name="Welcome  1"                ChannelID = "0xFFFFF040" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="LCPlacehldr  2"            ChannelID = "0xFFFFF041" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="LCPlacehldr  3"            ChannelID = "0xFFFFF042" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="LCPlacehldr  4"            ChannelID = "0xFFFFF043" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="LCPlacehldr  5"            ChannelID = "0xFFFFF044" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="LCPlacehldr  6"            ChannelID = "0xFFFFF045" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="LCPlacehldr  7"            ChannelID = "0xFFFFF046" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="LCPlacehldr  8"            ChannelID = "0xFFFFF047" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="LCPlacehldr  9"            ChannelID = "0xFFFFF048" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="LCPlacehldr  10"           ChannelID = "0xFFFFF049" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="LCPlacehldr  11"           ChannelID = "0xFFFFF04A" BlockUnratedContent= "false" CategoryID= "0" />
+      <ChannelRule Name="LCPlacehldr  12"           ChannelID = "0xFFFFF04B" BlockUnratedContent= "false" CategoryID= "0" />
+    </SetEnforcerDB>
+
+    <SetEnforcerDB Name="PurchaseString">
+      <PurchaseString StepID="OpenAccess" Name="OpenAccessBasicAccess" Text="Divertindo-se com esta amostra de TV-ao-vivo, filmes inéditos e seriados sem interrupção comercial? Então passe o seu cartão agora e desfrute por apenas R$6,00. Vide cartão de segurança para maiores detalhes" />
+      <PurchaseString StepID="InvitePayment" Name="InvitePaymentBasicAccess" Text="A sua amostra gratis está terminando em breve!
+Passe o seu cartão agora para continuar o seu entretenimento até o final deste voo. Desfrute TV-ao-vivo, filmes inéditos e seriados sem interrupções comerciais por apenas R$6,00. Vide cartão de segurança para detalhes adicionais." />
+      <PurchaseString StepID="RestrictedAccess" Name="RestrictedAccessSelect" Text="Assista TV-ao-vivo pela SKY, seriados sem interrupções comerciais e filmes inéditos (NB: filmes podem já estar em progresso) tudo por apenas R$6,00!  Passe o seu cartão agora e desfrute!" />
+      <PurchaseString StepID="RestrictedAccess" Name="RestrictedAccessBasicAccess" Text="Procurando por diversão?
+Assista TV-ao-vivo pela SKY, seriados sem interrupções comerciais e tudo por apenas R$6,00! Passe o seu cartão agora e desfrute!" />
+      <PurchaseString StepID="SwipeRequest" Name="SwipeRequestBasicAccess" Text="Favor passar o seu cartão agora para acesso à todos canais de TV e filmes inéditos por apenas R$6,00." />
+      <PurchaseString StepID="Confirm" Name="ConfirmBasicAccess" Text="Obrigado! Confirme o seu pagamento (R$6,00) pressionando o botão SELECT no seu controle remoto." />
+      <PurchaseString StepID="ThankYou" Name="ThankYou" Text="Divirta-se!" />
+      <PurchaseString StepID="SwipeError" Name="SwipeError" Text="Falha na leitura do seu cartão, favor passar novamente ou usar outro cartão." />
+      <PurchaseString StepID="ValidateError" Name="ValidateError" Text="Falha na validação do seu cartão, favor passar novamente ou usar outro cartão." />
+      <PurchaseString StepID="TransactionError" Name="TransactionError" Text="Não foi possível completar a sua transação, favor tentar novamente." />
+      <PurchaseString StepID="ValidateWait" Name="ValidateWait" Text="Favor esperar enquanto finalizamos o seu pagamento." />
+      <PurchaseString StepID="PABanner" Name="PABanner" Text="Anuncio de Cabine em andamento." />
+      <PurchaseString StepID="NoBanner" Name="NoBannerBasicAccess" Text="NPSF" />
+    </SetEnforcerDB>
+
+    <SetEnforcerDB Name="PaymentGroup">
+        <PaymentGroup Name="Free" Cost="000" CostUnit="BRL" ServiceClass="Free" PurchaseStrings="" ChannelID=" " />
+        <PaymentGroup Name="Basic Access" Cost="000" CostUnit="BRL" ServiceClass="TV" PurchaseStrings="OpenAccessBasicAccess,InvitePaymentBasicAccess,RestrictedAccessBasicAccess,SwipeRequestBasicAccess,ConfirmBasicAccess"  ChannelID="0x00024BA7,0x00029BA7,0x001FE991,0x00029BAB,0x00029BB8,0x001E60BF,0x0000868D,0x00024BFF,0x000E8C01,0x000E8C05,0x00024BEE,0x00008697,0x00029BF0,0x00130824,0x0008B126,0x001E2C7B,0x00024686,0x00024BA6,0x0001889A,0x0005CB38,0x001B4B5A,0x0011387B,0x00024BCA,0x00024BC3,0x0004519E,0x0004CC82,0x0006331B,0x0021D109,0x001BEF6C,0x001BEEE6,0x001BEF6E,0x00024682,0x001BDCA5,0x001BEF32,0x00024BCE,0x001BEF31,0x001BEF75,0x000202B0,0x001ECF81,0x001BEF71,0x00090AF0,0x001B2143,0x001B2912,0x00172FB4,0x0008BA06,0x0008B9FC,0x00024684,0x0008BA02,0x0008BA05,0x0008B9F5,0x00024B98,0x0008B9FF,0x001B56D1,0xFFFFF040,0xFFFFF041,0xFFFFF042,0xFFFFF043,0xFFFFF044,0xFFFFF045,0xFFFFF046,0xFFFFF047,0xFFFFF048,0xFFFFF049,0xFFFFF04A,0xFFFFF04B"/>
+      </SetEnforcerDB>
+
+      <SetEnforcerDB Name="SeatProfile">
+        <SeatProfile Name="Coach" PrepaidGroups="Free,Basic Access"       ChannelID="0x00024BA7,0x00029BA7,0x001FE991,0x00029BAB,0x00029BB8,0x001E60BF,0x0000868D,0x00024BFF,0x000E8C01,0x000E8C05,0x00024BEE,0x00008697,0x00029BF0,0x00130824,0x0008B126,0x001E2C7B,0x00024686,0x00024BA6,0x0001889A,0x0005CB38,0x001B4B5A,0x0011387B,0x00024BCA,0x00024BC3,0x0004519E,0x0004CC82,0x0006331B,0x0021D109,0x001BEF6C,0x001BEEE6,0x001BEF6E,0x00024682,0x001BDCA5,0x001BEF32,0x00024BCE,0x001BEF31,0x001BEF75,0x000202B0,0x001ECF81,0x001BEF71,0x00090AF0,0x001B2143,0x001B2912,0x00172FB4,0x0008BA06,0x0008B9FC,0x00024684,0x0008BA02,0x0008BA05,0x0008B9F5,0x00024B98,0x0008B9FF,0x001B56D1,0xFFFFF040,0xFFFFF041,0xFFFFF042,0xFFFFF043,0xFFFFF044,0xFFFFF045,0xFFFFF046,0xFFFFF047,0xFFFFF048,0xFFFFF049,0xFFFFF04A,0xFFFFF04B"/>
+        <SeatProfile Name="Unassigned" PrepaidGroups="Free,Basic Access"  ChannelID="0x00024BA7,0x00029BA7,0x001FE991,0x00029BAB,0x00029BB8,0x001E60BF,0x0000868D,0x00024BFF,0x000E8C01,0x000E8C05,0x00024BEE,0x00008697,0x00029BF0,0x00130824,0x0008B126,0x001E2C7B,0x00024686,0x00024BA6,0x0001889A,0x0005CB38,0x001B4B5A,0x0011387B,0x00024BCA,0x00024BC3,0x0004519E,0x0004CC82,0x0006331B,0x0021D109,0x001BEF6C,0x001BEEE6,0x001BEF6E,0x00024682,0x001BDCA5,0x001BEF32,0x00024BCE,0x001BEF31,0x001BEF75,0x000202B0,0x001ECF81,0x001BEF71,0x00090AF0,0x001B2143,0x001B2912,0x00172FB4,0x0008BA06,0x0008B9FC,0x00024684,0x0008BA02,0x0008BA05,0x0008B9F5,0x00024B98,0x0008B9FF,0x001B56D1,0xFFFFF040,0xFFFFF041,0xFFFFF042,0xFFFFF043,0xFFFFF044,0xFFFFF045,0xFFFFF046,0xFFFFF047,0xFFFFF048,0xFFFFF049,0xFFFFF04A,0xFFFFF04B"/>
+
+      </SetEnforcerDB>
+    </IpcMessage>
+
+  </SetEnforcerDBMsg>
+
+<StringsDatabase>
+  <ICDVersion>1.0</ICDVersion>
+  <DataVersion>1.3</DataVersion>
+  <CreateDate>2016-07-05T00:00:00</CreateDate>
+  <Description>Azul Strings Data</Description>
+  <StringElement>
+    <Name>OpenAccess</Name>
+    <Value><![CDATA[NPSF]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>InvitePayment</Name>
+    <Value><![CDATA[A sua amostra gratis está terminando em breve!
+Passe o seu cartão agora para continuar o seu entretenimento até o final deste voo. Desfrute TV-ao-vivo, filmes inéditos e seriados sem interrupções comerciais por apenas R$6,00. Vide cartão de segurança para detalhes adicionais.]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>RestrictedAccessSelect</Name>
+    <Value><![CDATA[Assista TV-ao-vivo pela SKY, seriados sem interrupções comerciais e filmes inéditos (NB: filmes podem já estar em progresso) tudo por apenas R$6,00!  Passe o seu cartão agora e desfrute!]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>RestrictedAccess</Name>
+    <Value><![CDATA[Procurando por diversão?
+Assista TV-ao-vivo pela SKY, seriados sem interrupções comerciais e tudo por apenas R$6,00! Passe o seu cartão agora e desfrute!]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PurchaseScreenSwipeRequest</Name>
+    <Value><![CDATA[Favor passar o seu cartão agora para acesso à todos canais de TV e filmes inéditos por apenas R$6,00.]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PurchaseScreenConfirm</Name>
+    <Value><![CDATA[Obrigado! Confirme o seu pagamento (R$6,00) pressionando o botão SELECT no seu controle remoto.]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PurchaseScreenThankYou</Name>
+    <Value><![CDATA[Divirta-se!]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PurchaseScreenSwipeError</Name>
+    <Value><![CDATA[Falha na leitura do seu cartão, favor passar novamente ou usar outro cartão.]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PurchaseScreenValidateError</Name>
+    <Value><![CDATA[Falha na validação do seu cartão, favor passar novamente ou usar outro cartão.]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PurchaseScreenTransactionError</Name>
+    <Value><![CDATA[Não foi possível completar a sua transação, favor tentar novamente.]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PurchaseScreenValidateWait</Name>
+    <Value><![CDATA[Favor esperar enquanto finalizamos o seu pagamento.]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PurchaseScreenButtonConfirmPurchase</Name>
+    <Value><![CDATA[Confirmar]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PurchaseScreenButtonCancelPurchase</Name>
+    <Value><![CDATA[Cancelar]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>ButtonTxtCancel</Name>
+    <Value><![CDATA[Cancelar]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>ButtonTxtOk</Name>
+    <Value><![CDATA[OK]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>ButtonTxtConfirm</Name>
+    <Value><![CDATA[Confirmar]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PABanner</Name>
+    <Value><![CDATA[Anuncio de Cabine em andamento.]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>NoBannerBasicAccess</Name>
+    <Value><![CDATA[NPSF]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>DTNAM</Name>
+    <Value><![CDATA[Sinal temporariamente indisponível.]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PaxApgResetActivate</Name>
+    <Value><![CDATA[programação SKY ao vivo esta agora disponivel.
+
+Esta programação pode ser acessada a qualquer hora pressionando o botão GUIDE no seu controle remoto.]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PaxApgResetConfirm</Name>
+    <Value><![CDATA[O guia necessita ser atualizado. Sua programação será temporariamente interrompida enquanto nós adicionamos canais SKY no seu guia.]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PaxApgResetFailed</Name>
+    <Value><![CDATA[O guia não pode ser atualizado desta vez. Pressione o botão GUIDE para tentar novamente.]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PaxApgResetBtnContinue</Name>
+    <Value><![CDATA[Continuar]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PaxApgResetBtnCancel</Name>
+    <Value><![CDATA[Cancelar]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PaxApgResetBtnDismiss</Name>
+    <Value><![CDATA[OK]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PaxApgResetBtnOk</Name>
+    <Value><![CDATA[OK]]></Value>
+  </StringElement>
+        <StringElement>
+    <Name>ExitCoverage</Name>
+    <Value><![CDATA[Esta aeronave estará deixando a area de cobertura da SKY em breve. Programação ao vivo da SKY nao estará disponivel uma vez que essa aeronave sairá da area de cobertura.
+Vários canais de filmes ainda estarão disponivel para o seu entretenimento]]></Value>
+  </StringElement>
+  <StringElement>
+    <Name>PaxApgExitCvgBtn</Name>
+    <Value><![CDATA[OK]]></Value>
+  </StringElement>
+
+</StringsDatabase>
+
+
+</FlightConfig>

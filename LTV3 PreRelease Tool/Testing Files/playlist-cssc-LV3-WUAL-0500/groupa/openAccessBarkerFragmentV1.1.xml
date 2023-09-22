@@ -1,0 +1,21 @@
+<channel major="1" minor="1">
+    <channel_name>UATV</channel_name>
+    <channel_description>Welcome</channel_description>
+    <category>movie</category>
+    <audio>English</audio>
+    <object_id>000</object_id>
+    <program>
+      <name>Welcome</name>
+      <rating>TV-G</rating>
+      <description></description>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_SW_Phantom_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_SW_Clones_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_SW_Sith_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_SW_Hope_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_SW_Empire_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_SW_Jedi_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_StarWars_TFA_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3Nov99_BV_SW_LastJedi_TR.mpg</filename>
+      <filename>/var/spool/ltv3/content/CSSC/complete/U3_SW_2019_Promo1.mpg</filename>
+    </program>
+  </channel>
